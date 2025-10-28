@@ -1,0 +1,56 @@
+QWidget {
+    background-color: #0f1410;
+    /* deep forest dark */
+    color: #d9e6d6;
+    font-family: "Fira Code", "Segoe UI", "Roboto";
+    font-size: 18px;
+}
+
+QLabel {
+    color: #d9e6d6;
+    font-weight: 500;
+}
+
+QPushButton {
+    background-color: #1d2a1d;
+    border: 1px solid #2f4230;
+    color: #d9e6d6;
+    padding: 8px 14px;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: #2a3c2b;
+}
+
+QPushButton:pressed {
+    background-color: #3ca374;
+    /* nature green accent */
+    color: white;
+}
+
+/* Inputs */
+QLineEdit,
+QTextEdit {
+    background-color: #182218;
+    border: 1px solid #2f4230;
+    border-radius: 8px;
+    padding: 6px;
+    color: #d9e6d6;
+}
+
+/* Progress Bar */
+QProgressBar {
+    border: 1px solid #2f4230;
+    border-radius: 8px;
+    background-color: #182218;
+    text-align: center;
+    color: #d9e6d6;
+}
+
+QProgressBar::chunk {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+            stop:0 #3ca374,
+            stop:1 #a3d977);
+    border-radius: 6px;
+}
