@@ -83,7 +83,7 @@ cd Obscuron
 ### 2. Create virtual environment (Optional)
 ```bash
 python3 -m venv obscuron
-source venv/bin/activate
+source obscuron/bin/activate
 pip install -r requirements.txt
 ```
 
