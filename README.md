@@ -1,7 +1,7 @@
 <h1 align="center">🛡️ Obscuron</h1>
 <p align="center">
 <p align="center">
-  <em>An elegant, lightweight yet powerful encryption system built on simplicity, clarity, and trust.</em><br>
+  <em><b>An elegant, lightweight yet powerful encryption system built on simplicity, clarity, and trust.</b></em><br>
   <b>Secure  •  Elegant  •  Adaptive</b>
 </p>
 <p align="center">
@@ -39,7 +39,7 @@ Obscuron introduces its **own custom encrypted file format : `.obsx`** — ensur
 
 ## Screenshots / Previews
 
-- #### Live Demo  (may take time to load)
+- #### Live Demo
 
 ![Obscuron (Live Demo)](images/obscuron-demo.gif)
 
@@ -83,7 +83,7 @@ cd Obscuron
 ### 2. Create virtual environment (Optional)
 ```bash
 python3 -m venv obscuron
-source obscuron/bin/activate
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
